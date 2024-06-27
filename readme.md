@@ -44,15 +44,16 @@ nav ul li{
 h1{
     font-size : 2em; el valor seria 60px
 }
-´´´
-- en el caso de rem al igual que el em el vañlor por defecto es 16px en caso de que su contenedor no este definido el font-size el contenedor directo del rem es html
-´´´css
+```
+- En el caso de rem al igual que el em el vañlor por defecto es 16px en caso de que su contenedor no este definido el font-size el contenedor directo del rem es html
+```css
 html{
     font-size: 20px;
 }
 h1{
     font-size : 2rem; el valor del em es igual a 20 px y como definimos que es 2 rem seria igual a 40px
 }
-´´´
+```
+
 - vw (Viewport Width): Esta unidad representa un porcentaje del ancho del viewport. 1 vw es igual al 1% del ancho total de la ventana del navegador. Por ejemplo, si el ancho del viewport es de 1000 píxeles, 1 vw equivaldría a 10 píxeles.
 -vh (Viewport Height): Esta unidad representa un porcentaje de la altura del viewport. 1 vh es igual al 1% de la altura total de la ventana del navegador. Por ejemplo, si la altura del viewport es de 800 píxeles, 1 vh equivaldría a 8 píxeles.
