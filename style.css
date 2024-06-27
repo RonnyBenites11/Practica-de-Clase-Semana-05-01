@@ -1,0 +1,42 @@
+/* imporatando tipo de fuente desde google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+NG+Modern:wght@100..400&display=swap');
+/* sselector de etiquetas */
+/* como podemos ver el contenedor tiene  el color blue y esto hace que
+herede  alos hijo h1 y h2 el mismo color de fuente */
+header{
+    background-color: blueviolet;
+    color: blue; 
+    font-size: 20px;
+}
+/* selector de descendencia */
+h1, h2{
+    text-align: center;
+    font-family: "Playwrite NG Modern", cursive;
+   
+    
+}
+/* por casacada aplicamos otro tipo de color ya que css lee de abajo para arriba */
+h2{
+    color: green;
+}
+/* por especificidad vemos que el tipo de letra cambio ya que teinee una especificidad 
+de 10 a compararacion que el de etioqueta solo tiene 1 */
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+     text-transform: uppercase; /*convierte a mayusculas */
+     font-weight: bold; /* colocar negrita*/
+     text-decoration: underline; /* subrayar*/
+
+}
+.container{
+    font-size: 40px; 
+}
+.parrafo{
+    font-size: 2em; /* el em toma como valor de 1em = 40 px y en 2em 80px
+*/
+}
+.elemento{
+    width: 50vw;
+    height: 50vh;
+    background-color: brown;
+}
